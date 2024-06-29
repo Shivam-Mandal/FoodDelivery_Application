@@ -105,7 +105,7 @@ const requestForgetPassword = async (req, res) => {
             secure: false,
             auth: {
                 user: 'shivammandal83404@gmail.com',
-                pass: 'vnyo euaq seey lccw'
+                pass: 'email password'
             }
         });
 
