@@ -12,7 +12,14 @@ const cors = require('cors')
 
 //middleware
 app.use(express.json());
-app.use(cors())
+app.use(cors(
+    {
+        origin:["https://deploy-foodDeliveryApp.vercel.app"],
+        methods:["POST","GET"],
+        credentials:true
+    }
+ 
+))
 
 app.get('/',(req,res)=>{
     res.send('hello world');
