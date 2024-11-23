@@ -6,7 +6,8 @@ const FoodState = (props) => {
     const [cartItem, setCartItem] = useState({});
     const [token, setToken] = useState("");
     const [food_list, setFoodList] = useState([]);
-    const url = "http://localhost:3000";
+    // const url = "http://localhost:3000";
+    const url = "food-delivery-application-rho.vercel.app";
 
     const fetchFoodList = async () => {
         try {
