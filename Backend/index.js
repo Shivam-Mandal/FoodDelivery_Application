@@ -14,7 +14,7 @@ const cors = require('cors')
 app.use(express.json());
 app.use(cors(
     {
-        origin:["https://food-delivery-application-frontend-omega.vercel.app/"],
+        origin:["https://food-delivery-application-frontend-omega.vercel.app"],
         methods:["POST","GET"],
         credentials:true
     }
