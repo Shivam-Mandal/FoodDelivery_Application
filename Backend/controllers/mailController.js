@@ -1,4 +1,4 @@
-const nodemailer = require('nodemailer');
+ const nodemailer = require('nodemailer');
 const orderModel = require('../models/orderModel');
 const userModel = require('../models/userModel');
 
@@ -10,8 +10,8 @@ const sendmail = async (req, res) => {
             port: 587,
             secure: false,
             auth: {
-                user: "shivammandal83404@gmail.com",
-                pass: "vnyo euaq seey lccw",
+                user: "enter email",
+                pass: "enter password",
             },
         });
 
