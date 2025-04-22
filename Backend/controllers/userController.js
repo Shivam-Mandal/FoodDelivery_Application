@@ -104,13 +104,13 @@ const requestForgetPassword = async (req, res) => {
             port: 587,
             secure: false,
             auth: {
-                user: 'shivammandal83404@gmail.com',
-                pass: 'vnyo euaq seey lccw'
+                user: "Enter email",
+                pass: "enter password'
             }
         });
 
         let mailOptions = {
-            from: 'shivammandal83404@gmail.com',
+            from: 'enter email',
             to: email,
             subject: 'Password Reset OTP',
             text: `Your OTP for password reset is: ${otp}`
