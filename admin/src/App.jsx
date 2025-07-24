@@ -19,7 +19,7 @@ function App() {
           <ToastContainer/>
           <Navbar />
           <Routes>
-            <Route exact path="/add" element={<Add url={url}/>} />
+            <Route exact path="/" element={<Add url={url}/>} />
             <Route exact path="/list" element={<List url={url} />} />
             <Route exact path="/orders" element={<Orders url={url} />} />
           </Routes>
