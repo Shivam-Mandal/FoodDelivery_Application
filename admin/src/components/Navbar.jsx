@@ -19,7 +19,7 @@ const Navbar = () => {
           <p className='text-sm mx-3'>Admin Panel</p>
       </div>
       <ul className="flex space-x-4">
-        <li><Link to="/add" className={`${location.pathname === "/add" ? "underline underline-offset-8  text-orange-400" : "hover:text-gray-500"}`}>Add Items</Link></li>
+        <li><Link to="/" className={`${location.pathname === "/" ? "underline underline-offset-8  text-orange-400" : "hover:text-gray-500"}`}>Add Items</Link></li>
         <li><Link to="/list" className={`${location.pathname === "/list" ? "underline underline-offset-8 text-orange-400" : "hover:text-gray-500"}`}>List Items</Link></li>
         <li><Link to="/orders" className={`${location.pathname === "/orders" ? "underline underline-offset-8 text-orange-400" : "hover:text-gray-500"}`}>Orders</Link></li>
       </ul>
